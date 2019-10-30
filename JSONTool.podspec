@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-
+我也不知道写些什么，就随便写写
                        DESC
 
   s.homepage         = 'https://github.com/XiaojieManager/JSONTool'
