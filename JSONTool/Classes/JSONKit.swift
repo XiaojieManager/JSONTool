@@ -8,10 +8,10 @@
 
 import Foundation
 
-protocol MapCodable: Codable {
+public protocol MapCodable: Codable {
     
 }
-public extension MapCodable{ //系统 Codable 协议 不允许扩展
+extension MapCodable{ //系统 Codable 协议 不允许扩展
     func toData() -> Data? {
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted //输出格式好看点
