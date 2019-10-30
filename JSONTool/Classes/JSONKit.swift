@@ -11,7 +11,7 @@ import Foundation
 protocol MapCodable: Codable {
     
 }
-extension MapCodable{ //系统 Codable 协议 不允许扩展
+public extension MapCodable{ //系统 Codable 协议 不允许扩展
     func toData() -> Data? {
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted //输出格式好看点
@@ -24,7 +24,7 @@ extension MapCodable{ //系统 Codable 协议 不允许扩展
     }
 }
 
-extension Data {
+public extension Data {
     func toModel<T:Codable>(modelType:T.Type) -> T? {
         do {
             return try JSONDecoder.init().decode(modelType, from: self)
@@ -55,7 +55,7 @@ extension Data {
     
 }
 
-extension Array {
+public extension Array {
     
     func toData() -> Data? {
         if JSONSerialization.isValidJSONObject(self) {
@@ -68,7 +68,7 @@ extension Array {
 }
 
 
-extension Dictionary {
+public extension Dictionary {
     func toData() -> Data? {
         if JSONSerialization.isValidJSONObject(self) {
             if let data = try? JSONSerialization.data(withJSONObject: self, options: .prettyPrinted) {
@@ -80,7 +80,7 @@ extension Dictionary {
 }
 
 
-extension String {
+public extension String {
     func toData() -> Data? {
         if (!JSONSerialization.isValidJSONObject(self)) {
             return nil
