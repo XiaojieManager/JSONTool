@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07EAA262434EA53693940A32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07EAA262434EA53693940A32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2E85F15578957B4E284614F7 /* Pods_JSONTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABA91B39F223EB95666F68 /* Pods-JSONTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-JSONTool_Example/Pods-JSONTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		58CC464E1CF60E22BD9C1443 /* JSONTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSONTool.podspec; path = ../JSONTool.podspec; sourceTree = "<group>"; };
+		58CC464E1CF60E22BD9C1443 /* JSONTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSONTool.podspec; path = ../JSONTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JSONTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72125132FB94184D955493C1 /* Pods-JSONTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONTool_Example.release.xcconfig"; path = "Target Support Files/Pods-JSONTool_Example/Pods-JSONTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		91A35B7BBCA246742023713D /* Pods_JSONTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E5E2ACACCAF2E2B6D09FE0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E5E2ACACCAF2E2B6D09FE0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D0B9080D95E6132425380003 /* Pods-JSONTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JSONTool_Tests/Pods-JSONTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD87E3EBB3DB6421CEE5E69C /* Pods-JSONTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-JSONTool_Tests/Pods-JSONTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				D0B9080D95E6132425380003 /* Pods-JSONTool_Tests.debug.xcconfig */,
 				DD87E3EBB3DB6421CEE5E69C /* Pods-JSONTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module JSONTool {
+  umbrella header "JSONTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
